@@ -1,0 +1,289 @@
+question,label
+전등 켜줘,S-OBJECT S-DO
+전등 켜줄래,S-OBJECT S-DO
+전등 켜,S-OBJECT S-DO
+전등 좀 켜봐,S-OBJECT O S-DO
+전등 좀 켜 주세요,S-OBJECT O S-DO O
+전등 좀 켜줘,S-OBJECT O S-DO
+전등 켜줘봐,S-OBJECT S-DO
+전등 좀만 켜줘,S-OBJECT O S-DO
+전등 좀 켜줘라 ㅋㅋ,S-OBJECT O S-DO O
+전등 켜봐좀 좀,S-OBJECT S-DO O
+전등 켜줘 ㅋㅋ,S-OBJECT S-DO O
+전등 좀 키라니까?,S-OBJECT O S-DO
+전등 좀 켜 주겠니?,S-OBJECT O S-DO O
+전등 켜 주겠니?,S-OBJECT S-DO O
+전등을 켜주세요,S-OBJECT S-DO
+전등 켜주라,S-OBJECT S-DO
+전등 켜라,S-OBJECT S-DO
+전등을 켜주라,S-OBJECT S-DO
+전등 좀 켜줄래?,S-OBJECT O S-DO
+전등. 켜줄래?,S-OBJECT S-DO
+전등 켜봐라,S-OBJECT S-DO
+전등 제발 켜줘,S-OBJECT O S-DO
+전등 좀 켜줘 ㅠㅠ,S-OBJECT O O S-DO
+아 전등 좀 켜봐,O S-OBJECT O S-DO
+아 전등 좀 키라니까?,O S-OBJECT O S-DO
+아 전등 켜라,O S-OBJECT S-DO
+아 전등 좀 켜봐라 진짜,O S-OBJECT O S-DO O
+아 전등 좀 켜줘라,O S-OBJECT O S-DO
+아 전등 켜 줘라 좀,O S-OBJECT S-DO O O
+아 전등 제발 켜줘,O S-OBJECT O S-DO
+제발 전등 켜 줘,O S-OBJECT S-DO O
+제발 전등 좀 켜줘,O S-OBJECT O S-DO
+제발 좀 전등 켜줘,O S-OBJECT O S-DO
+제발 전등 켜,O S-OBJECT S-DO
+제발 전등 좀 키라니까?,O S-OBJECT O S-DO
+제발 전등 좀 켜봐,O S-OBJECT O S-DO
+제발 전등 좀 켜줘,O S-OBJECT O S-DO
+제발 전등 켜줘라,O S-OBJECT S-DO
+빨리 전등 켜줘,O S-OBJECT S-DO
+빨리 전등 좀 켜줘,O S-OBJECT O S-DO
+빨리 전등 좀만 켜봐,O S-OBJECT O S-DO
+빨리 전등 켜,O S-OBJECT S-DO
+빨리 전등 켜라,O S-OBJECT S-DO
+빨리 전등 좀 켜줘라,O S-OBJECT O S-DO
+빨리 좀 전등 켜봐,O O S-OBJECT S-DO
+이제 전등 켜,O S-OBJECT S-DO
+이제 전등 켜도 좋아,O S-OBJECT S-DO O
+이제 전등 켜줘,O S-OBJECT S-DO
+이제 전등 켜줘도 돼,O S-OBJECT S-DO O
+이제 전등 켜라,O S-OBJECT S-DO
+이제 전등 켜주셈,O S-OBJECT S-DO
+이제 전등 켜줘 ㅋㅋ,O S-OBJECT S-DO O
+이제 전등 켜줘라,O S-OBJECT S-DO
+이제 전등 켜 달라니까?,O S-OBJECT S-DO O
+이제 전등 좀 켜 줄수 있겠니?,O S-OBJECT O S-DO O O
+이제 전등 켜 줄수 있겠니?,O S-OBJECT S-DO O O
+이제 전등 켜 주셈,O S-OBJECT S-DO O
+이제 전등 켜줘라 ㅋㅋ,O S-OBJECT S-DO O
+이제 좀 전등 켜주셈,O O S-OBJECT S-DO
+이제 좀 전등 켜줘라,O O S-OBJECT S-DO
+이제 좀 전등 켜 달라니까?,O O S-OBJECT S-DO O
+이제 좀 전등 켜 달리니까,O O S-OBJECT S-DO O
+이제 좀 전등 켜 줄 수 있냐?,O O S-OBJECT S-DO O O O
+이제 좀 전등 켜봐라,O O S-OBJECT S-DO
+이제 전등 좀 켜봐,O S-OBJECT O S-DO
+이제 전등 좀 켜줘 ㅠㅠ,O S-OBJECT O S-DO O
+이제 전등 켜 줄래?,O S-OBJECT S-DO O
+불좀 켜줘,S-OBJECT S-DO
+불 켜줄래,S-OBJECT S-DO
+불 켜,S-OBJECT S-DO
+불 좀 켜봐,S-OBJECT O S-DO
+불 좀 켜 주세요,S-OBJECT O S-DO O
+불 좀 켜줘,S-OBJECT O S-DO
+불 켜줘봐,S-OBJECT S-DO
+불 좀만 켜줘,S-OBJECT O S-DO
+불 좀 켜줘라 ㅋㅋ,S-OBJECT O S-DO O
+불 켜봐좀 좀,S-OBJECT S-DO O
+불 켜줘 ㅋㅋ,S-OBJECT S-DO O
+불 좀 키라니까?,S-OBJECT O S-DO
+불 좀 켜 주겠니?,S-OBJECT O S-DO O
+불 켜 주겠니?,S-OBJECT S-DO O
+불을 켜주세요,S-OBJECT S-DO
+불 켜주라,S-OBJECT S-DO
+불 켜라,S-OBJECT S-DO
+불을 켜주라,S-OBJECT S-DO
+불 좀 켜줄래?,S-OBJECT O S-DO
+불. 켜줄래?,S-OBJECT S-DO
+불 켜봐라,S-OBJECT S-DO
+불 제발 켜줘,S-OBJECT O S-DO
+불 좀 켜줘 ㅠㅠ,S-OBJECT O S-DO O
+아 불 좀 켜봐,O S-OBJECT O S-DO
+아 불 좀 키라니까?,O S-OBJECT O S-DO
+아 불 켜라,O S-OBJECT S-DO
+아 불 좀 켜봐라 진짜,O S-OBJECT O S-DO O
+아 불 좀 켜줘라,O S-OBJECT O S-DO
+아 불 켜 줘라 좀,O S-OBJECT O S-DO O
+아 불 제발 켜줘,O S-OBJECT O S-DO
+제발 불 켜 줘,O S-OBJECT O S-DO
+제발 불 좀 켜줘,O S-OBJECT O S-DO
+제발 좀 불 켜줘,O S-OBJECT O S-DO
+제발 불 켜,O S-OBJECT S-DO
+제발 불 좀 키라니까?,O S-OBJECT O S-DO
+제발 불 좀 켜봐,O S-OBJECT O S-DO
+제발 불 좀 켜줘,O S-OBJECT O S-DO
+제발 불 켜줘라,O S-OBJECT S-DO
+빨리 불 켜줘,O S-OBJECT S-DO
+빨리 불 좀 켜줘,O S-OBJECT O S-DO
+빨리 불 좀만 켜봐,O S-OBJECT O S-DO
+빨리 불 켜,O S-OBJECT S-DO
+빨리 불 켜라,O S-OBJECT S-DO
+빨리 불 좀 켜줘라,O S-OBJECT O S-DO
+빨리 불 켜봐,O S-OBJECT S-DO
+이제 불 켜,O S-OBJECT S-DO
+이제 불 켜도 좋아,O S-OBJECT S-DO O
+이제 불 켜줘,O S-OBJECT S-DO
+이제 불 켜줘도 돼,O S-OBJECT S-DO O
+이제 불 켜라,O S-OBJECT S-DO
+이제 불 켜주셈,O S-OBJECT S-DO
+이제 불 켜줘 ㅋㅋ,O S-OBJECT S-DO O
+이제 불 켜줘라,O S-OBJECT S-DO
+이제 불 켜 달라니까?,O S-OBJECT S-DO O
+이제 불 좀 켜 줄수 있겠니?,O S-OBJECT O S-DO O O
+이제 불 켜 줄수 있겠니?,O S-OBJECT S-DO O O
+이제 불 켜 주셈,O S-OBJECT S-DO O
+이제 불 켜줘라 ㅋㅋ,O S-OBJECT S-DO O
+이제 좀 불 켜주셈,O O S-OBJECT S-DO
+이제 좀 불 켜줘라,O O S-OBJECT S-DO
+이제 좀 불 켜 달라니까?,O O S-OBJECT S-DO O
+이제 좀 불 켜 달리니까,O O S-OBJECT S-DO O
+이제 좀 불 켜 줄 수 있냐?,O O S-OBJECT S-DO O O O
+이제 좀 불 켜봐라,O O S-OBJECT S-DO
+이제 불 좀 켜봐,O S-OBJECT O S-DO
+이제 불 좀 켜줘 ㅠㅠ,O S-OBJECT O S-DO O
+이제 불 켜 줄래?,O S-OBJECT S-DO O
+전등 꺼줘,S-OBJECT S-DO
+전등 꺼줄래,S-OBJECT S-DO
+전등 꺼,S-OBJECT S-DO
+전등 좀 꺼봐,S-OBJECT O S-DO
+전등 좀 꺼 주세요,S-OBJECT O S-DO O
+전등 좀 꺼줘,S-OBJECT O S-DO
+전등 꺼줘봐,S-OBJECT S-DO
+전등 좀만 꺼줘,S-OBJECT O S-DO
+전등 좀 꺼줘라 ㅋㅋ,S-OBJECT O S-DO O
+전등 꺼봐 좀,S-OBJECT S-DO O
+전등 꺼줘 ㅋㅋ,S-OBJECT S-DO O
+전등 좀 끄라니까?,S-OBJECT O S-DO
+전등 좀 꺼 주겠니?,S-OBJECT O S-DO O
+전등 꺼 주겠니?,S-OBJECT S-DO O
+전등을 꺼주세요,S-OBJECT S-DO
+전등 꺼주라,S-OBJECT S-DO
+전등 꺼라,S-OBJECT S-DO
+전등을 꺼주라,S-OBJECT S-DO
+전등 좀 꺼줄래?,S-OBJECT O S-DO
+전등. 꺼줄래?,S-OBJECT S-DO
+전등 꺼봐라,S-OBJECT S-DO
+전등 제발 꺼줘,S-OBJECT O S-DO
+전등 좀 꺼줘 ㅠㅠ,S-OBJECT O S-DO O
+아 전등 좀 꺼봐,O S-OBJECT O S-DO
+아 전등 좀 끄라니까?,O S-OBJECT O S-DO
+아 전등 꺼라,O S-OBJECT S-DO
+아 전등 좀 꺼봐라 진짜,O S-OBJECT O S-DO O
+아 전등 좀 꺼줘라,O S-OBJECT O S-DO
+아 전등 꺼 줘라 좀,O S-OBJECT O S-DO O
+아 전등 제발 꺼줘,O S-OBJECT O S-DO
+제발 전등 꺼 줘,O S-OBJECT S-DO O
+제발 전등 좀 꺼줘,O S-OBJECT O S-DO
+제발 좀 전등 꺼줘,O O S-OBJECT S-DO
+제발 전등 꺼,O S-OBJECT S-DO
+제발 전등 좀 끄라니까?,O S-OBJECT O S-DO
+제발 전등 좀 꺼봐,O S-OBJECT O S-DO
+제발 전등 좀 꺼줘,O S-OBJECT O S-DO
+제발 전등 꺼줘라,O S-OBJECT S-DO
+빨리 전등 꺼줘,O S-OBJECT S-DO
+빨리 전등 좀 꺼줘,O S-OBJECT O S-DO
+빨리 전등 좀만 꺼봐,O S-OBJECT O S-DO
+빨리 전등 꺼,O S-OBJECT S-DO
+빨리 전등 꺼라,O S-OBJECT S-DO
+빨리 전등 좀 꺼줘라,O S-OBJECT O S-DO
+빨리 좀 전등 꺼봐,O O S-OBJECT S-DO
+이제 전등 꺼,O S-OBJECT S-DO
+이제 전등 꺼도 좋아,O S-OBJECT S-DO O
+이제 전등 꺼줘,O S-OBJECT S-DO
+이제 전등 꺼줘도 돼,O S-OBJECT S-DO O
+이제 전등 꺼라,O S-OBJECT S-DO
+이제 전등 꺼주셈,O S-OBJECT S-DO
+이제 전등 꺼줘 ㅋㅋ,O S-OBJECT S-DO O
+이제 전등 꺼줘라,O S-OBJECT S-DO
+이제 전등 꺼 달라니까?,O S-OBJECT S-DO O
+이제 전등 좀 꺼 줄수 있겠니?,O S-OBJECT O O O O
+이제 전등 꺼 줄수 있겠니?,O S-OBJECT S-DO O O
+이제 전등 꺼 주셈,O S-OBJECT S-DO O
+이제 전등 꺼줘라 ㅋㅋ,O S-OBJECT S-DO O
+이제 좀 전등 꺼주셈,O O S-OBJECT S-DO
+이제 좀 전등 꺼줘라,O O S-OBJECT S-DO
+이제 좀 전등 꺼 달라니까?,O O S-OBJECT S-DO O
+이제 좀 전등 꺼 달리니까,O O S-OBJECT S-DO O
+이제 좀 전등 꺼 줄 수 있냐?,O O S-OBJECT S-DO O O O
+이제 좀 전등 꺼봐라,O O S-OBJECT S-DO
+이제 전등 좀 꺼봐,O S-OBJECT O S-DO
+이제 전등 좀 꺼줘 ㅠㅠ,O S-OBJECT O S-DO O
+이제 전등 꺼 줄래?,O S-OBJECT S-DO O
+불좀 꺼줘,S-OBJECT S-DO
+불 꺼줄래,S-OBJECT S-DO
+불 꺼,S-OBJECT S-DO
+불 좀 꺼봐,S-OBJECT O S-DO
+불 좀 꺼 주세요,S-OBJECT O S-DO O
+불 좀 꺼줘,S-OBJECT O S-DO
+불 꺼줘봐,S-OBJECT S-DO
+불 좀만 꺼줘,S-OBJECT O S-DO
+불 좀 꺼줘라 ㅋㅋ,S-OBJECT O S-DO O
+불 꺼봐좀 좀,S-OBJECT S-DO O
+불 꺼줘 ㅋㅋ,S-OBJECT S-DO O
+불 좀 끄라니까?,S-OBJECT O S-DO
+불 좀 꺼 주겠니?,S-OBJECT O S-DO O
+불 꺼 주겠니?,S-OBJECT S-DO O
+불을 꺼주세요,S-OBJECT S-DO
+불 꺼주라,S-OBJECT S-DO
+불 꺼라,S-OBJECT S-DO
+불을 꺼주라,S-OBJECT S-DO
+불 좀 꺼줄래?,S-OBJECT O S-DO
+불. 꺼줄래?,S-OBJECT S-DO
+불 꺼봐라,S-OBJECT S-DO
+불 제발 꺼줘,S-OBJECT O S-DO
+불 좀 꺼줘 ㅠㅠ,S-OBJECT O S-DO O
+아 불 좀 꺼봐,O S-OBJECT O S-DO
+아 불 좀 끄라니까?,O S-OBJECT O S-DO
+아 불 꺼라,O S-OBJECT S-DO
+아 불 좀 꺼봐라 진짜,O S-OBJECT O S-DO O
+아 불 좀 꺼줘라,O S-OBJECT O S-DO
+아 불 꺼 줘라 좀,O S-OBJECT O S-DO O
+아 불 제발 꺼줘,O S-OBJECT O S-DO
+제발 불 꺼 줘,O S-OBJECT S-DO O
+제발 불 좀 꺼줘,O S-OBJECT O S-DO
+제발 좀 불 꺼줘,O O S-OBJECT S-DO
+제발 불 꺼,O S-OBJECT S-DO
+제발 불 좀 끄라니까?,O S-OBJECT O S-DO
+제발 불 좀 꺼봐,O S-OBJECT O S-DO
+제발 불 좀 꺼줘,O S-OBJECT O S-DO
+제발 불 꺼줘라,O S-OBJECT S-DO
+빨리 불 꺼줘,O S-OBJECT S-DO
+빨리 불 좀 꺼줘,O S-OBJECT O S-DO
+빨리 불 좀만 꺼봐,O S-OBJECT O S-DO
+빨리 불 꺼,O S-OBJECT S-DO
+빨리 불 꺼라,O S-OBJECT S-DO
+빨리 불 좀 꺼줘라,O S-OBJECT O S-DO
+빨리 불 전등 꺼봐,O S-OBJECT O S-DO
+이제 불 꺼,O S-OBJECT S-DO
+이제 불 꺼도 좋아,O S-OBJECT S-DO O
+이제 불 꺼줘,O S-OBJECT S-DO
+이제 불 꺼줘도 돼,O S-OBJECT S-DO O
+이제 불 꺼라,O S-OBJECT S-DO
+이제 불 꺼주셈,O S-OBJECT S-DO
+이제 불 꺼줘 ㅋㅋ,O S-OBJECT S-DO O
+이제 불 꺼줘라,O S-OBJECT S-DO
+이제 불 꺼 달라니까?,O S-OBJECT S-DO O
+이제 불 좀 꺼 줄수 있겠니?,O S-OBJECT O S-DO O O
+이제 불 꺼 줄수 있겠니?,O S-OBJECT S-DO O O
+이제 불 꺼 주셈,O S-OBJECT S-DO O
+이제 불 꺼줘라 ㅋㅋ,O S-OBJECT S-DO O
+이제 좀 불 꺼주셈,O O S-OBJECT S-DO
+이제 좀 불 꺼줘라,O O S-OBJECT S-DO
+이제 좀 불 꺼 달라니까?,O O S-OBJECT S-DO O
+이제 좀 불 꺼 달리니까,O O S-OBJECT S-DO O
+이제 좀 불 꺼 줄 수 있냐?,O O S-OBJECT S-DO O O O
+이제 좀 불 꺼봐라,O O S-OBJECT S-DO
+이제 불 좀 꺼봐,O S-OBJECT O S-DO
+이제 불 좀 꺼줘 ㅠㅠ,O S-OBJECT O S-DO O
+이제 불 꺼 줄래?,O S-OBJECT S-DO O
+꺼 불,S-DO S-OBJECT
+꺼 이제 불,S-DO O S-OBJECT
+꺼도 돼 이제 불,S-DO O O S-OBJECT
+꺼라 이제 불,S-DO O S-OBJECT
+꺼라 불 이제,S-DO S-OBJECT O
+꺼라 좀 불,S-DO O S-OBJECT
+꺼주세요 불 좀,S-DO S-OBJECT O
+꺼줘요 불,S-DO S-OBJECT
+꺼 불 좀,S-DO S-OBJECT O
+꺼라 이제 불 좀,S-DO O S-OBJECT O
+켜 불,S-DO S-OBJECT
+켜 이제 불,S-DO O S-OBJECT
+켜도 돼 이제 불,S-DO O O S-OBJECT
+켜라 이제 불,S-DO O S-OBJECT
+켜라 불 이제,S-DO S-OBJECT O
+켜라 좀 불,S-DO O S-OBJECT
+켜주세요 불 좀,S-DO S-OBJECT O
+켜줘요 불,S-DO S-OBJECT
+켜 불 좀,S-DO S-OBJECT O
+켜라 이제 불 좀,S-DO O S-OBJECT O

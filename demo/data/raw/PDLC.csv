@@ -1,0 +1,333 @@
+question,label
+블라인드 꺼줘,S-OBJECT S-DO
+블라인드 꺼,S-OBJECT S-DO
+블라인드 꺼봐,S-OBJECT S-DO
+블라인드 꺼줘봐,S-OBJECT S-DO
+블라인드 꺼라,S-OBJECT S-DO
+블라인드 꺼주세요,S-OBJECT S-DO
+블라인드 오프,S-OBJECT S-DO
+블라인드 꺼봐라,S-OBJECT S-DO
+블라인드 꺼줄래,S-OBJECT S-DO
+블라인드 좀 꺼줘,S-OBJECT O S-DO
+블라인드 좀 꺼봐,S-OBJECT O S-DO
+블라인드 좀 꺼봐 좀,S-OBJECT O S-DO O
+블라인드 좀 꺼 주세요,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘라,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘요,S-OBJECT O S-DO O
+블라인드 좀 꺼 주셈,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘라,S-OBJECT O S-DO O
+블라인드 좀 꺼라 좀,S-OBJECT O S-DO O
+블라인드 좀 꺼봐,S-OBJECT O S-DO
+블라인드 꺼줄래?,S-OBJECT S-DO
+블라인드 좀 꺼줄래?,S-OBJECT O S-DO
+블라인드 좀 꺼줘라 ㅋㅋ,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘 ㅋㅋ,S-OBJECT O S-DO O O
+블라인드 꺼 줘 ㅋㅋ,S-OBJECT S-DO O O
+블라인드 꺼봐라,S-OBJECT S-DO
+블라인드 꺼줘,S-OBJECT S-DO
+블라인드 꺼,S-OBJECT S-DO
+블라인드 꺼봐,S-OBJECT S-DO
+블라인드 꺼줘봐,S-OBJECT S-DO
+블라인드 꺼라,S-OBJECT S-DO
+블라인드 꺼주세요,S-OBJECT S-DO
+블라인드 오프,S-OBJECT S-DO
+블라인드 꺼봐라,S-OBJECT S-DO
+블라인드 좀 꺼줘,S-OBJECT O S-DO
+블라인드 좀 꺼봐,S-OBJECT O S-DO
+블라인드 좀 꺼봐 좀,S-OBJECT O S-DO O
+블라인드 꺼줄래,S-OBJECT S-DO
+블라인드 좀 꺼 주세요,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘라,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘요,S-OBJECT O S-DO O
+블라인드 좀 꺼 주셈,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘라,S-OBJECT O S-DO O
+블라인드 좀 꺼라 좀,S-OBJECT O S-DO O
+블라인드 좀 꺼봐,S-OBJECT O S-DO
+블라인드 꺼줄래?,S-OBJECT S-DO
+피디일시 좀 꺼줄래?,S-OBJECT O S-DO
+블라인드 좀 꺼줘라 ㅋㅋ,S-OBJECT O S-DO O
+블라인드 좀 꺼 줘 ㅋㅋ,S-OBJECT O S-DO O O
+블라인드 꺼 줘 ㅋㅋ,S-OBJECT S-DO O O
+블라인드 꺼봐라,S-OBJECT S-DO
+사생활 보호모드 꺼줘,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 꺼,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 꺼봐,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 그만해,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 그만,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 하지마,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 꺼도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호모드 꺼라,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 꺼줘라,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 좀 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 좀 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼보셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 좀 꺼주세요,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼주셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 꺼봐요,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 그만해,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 그만,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 하지마,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 꺼도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 이제 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 꺼줘라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 좀 꺼,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호모드 이제 좀 꺼줘,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼라,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼봐,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호모드 이제 좀 꺼주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 꺼봐요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 꺼줘,B-OBJECT E-OBJECT S-DO
+사생활 보호 꺼,B-OBJECT E-OBJECT S-DO
+사생활 보호 꺼봐,B-OBJECT E-OBJECT S-DO
+사생활 보호 그만해,B-OBJECT E-OBJECT S-DO
+사생활 보호 그만,B-OBJECT E-OBJECT S-DO
+사생활 보호 하지마,B-OBJECT E-OBJECT S-DO
+사생활 보호 꺼도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호 꺼라,B-OBJECT E-OBJECT S-DO
+사생활 보호 꺼줘라,B-OBJECT E-OBJECT S-DO
+사생활 보호 좀 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 좀 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼보셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 좀 꺼주세요,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼주셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 꺼봐요,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 그만해,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 그만,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 하지마,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 꺼도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 이제 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 꺼줘라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 좀 꺼,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호 이제 좀 꺼줘,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼라,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼봐,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호 이제 좀 꺼주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 꺼봐요,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 꺼줘,B-OBJECT E-OBJECT S-DO
+사생활 모드 꺼,B-OBJECT E-OBJECT S-DO
+사생활 모드 꺼봐,B-OBJECT E-OBJECT S-DO
+사생활 모드 그만해,B-OBJECT E-OBJECT S-DO
+사생활 모드 그만,B-OBJECT E-OBJECT S-DO
+사생활 모드 하지마,B-OBJECT E-OBJECT S-DO
+사생활 모드 꺼도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 모드 꺼라,B-OBJECT E-OBJECT S-DO
+사생활 모드 꺼줘라,B-OBJECT E-OBJECT S-DO
+사생활 모드 좀 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 좀 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼보셈,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 좀 꺼주세요,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼주셈,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 꺼봐요,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 꺼줘,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 꺼,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 꺼봐,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 그만해,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 그만,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 하지마,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 꺼도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 이제 꺼라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 꺼줘라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 좀 꺼,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 모드 이제 좀 꺼줘,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼라,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼봐,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 모드 이제 좀 꺼주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 꺼봐요,B-OBJECT E-OBJECT O O S-DO
+블라인드 켜줘,S-OBJECT S-DO
+블라인드 켜,S-OBJECT S-DO
+블라인드 켜봐,S-OBJECT S-DO
+블라인드 켜줘봐,S-OBJECT S-DO
+블라인드 켜라,S-OBJECT S-DO
+블라인드 켜주세요,S-OBJECT S-DO
+블라인드 온,S-OBJECT S-DO
+블라인드 켜봐라,S-OBJECT S-DO
+블라인드 켜줄래,S-OBJECT S-DO
+블라인드 좀 켜줘,S-OBJECT O S-DO
+블라인드 좀 켜봐,S-OBJECT O S-DO
+블라인드 좀 켜봐 좀,S-OBJECT O S-DO O
+블라인드 좀 켜 주세요,S-OBJECT O S-DO O
+블라인드 좀 켜 줘라,S-OBJECT O S-DO O
+블라인드 좀 켜 줘요,S-OBJECT O S-DO O
+블라인드 좀 켜 주셈,S-OBJECT O S-DO O
+블라인드 좀 켜 줘,S-OBJECT O S-DO O
+블라인드 좀 켜 줘라,S-OBJECT O S-DO O
+블라인드 좀 켜라 좀,S-OBJECT O S-DO O
+블라인드 좀 켜봐,S-OBJECT O S-DO
+블라인드 켜줄래?,S-OBJECT S-DO
+블라인드 좀 켜줄래?,S-OBJECT O S-DO
+블라인드 좀 켜줘라 ㅋㅋ,S-OBJECT O S-DO O
+블라인드 좀 켜 줘 ㅋㅋ,S-OBJECT O S-DO O O
+블라인드 켜 줘 ㅋㅋ,S-OBJECT S-DO O O
+블라인드 켜봐라,S-OBJECT S-DO
+블라인드 켜줘,S-OBJECT S-DO
+블라인드 켜,S-OBJECT S-DO
+블라인드 켜봐,S-OBJECT S-DO
+블라인드 켜줘봐,S-OBJECT S-DO
+블라인드 켜라,S-OBJECT S-DO
+블라인드 켜주세요,S-OBJECT S-DO
+블라인드 온,S-OBJECT S-DO
+블라인드 켜봐라,S-OBJECT S-DO
+블라인드 좀 켜줘,S-OBJECT O S-DO
+블라인드 좀 켜봐,S-OBJECT O S-DO
+블라인드 좀 켜봐 좀,S-OBJECT O S-DO O
+블라인드 켜줄래,S-OBJECT S-DO
+블라인드 좀 켜 주세요,S-OBJECT O S-DO O
+블라인드 좀 켜 줘라,S-OBJECT O S-DO O
+블라인드 좀 켜 줘요,S-OBJECT O S-DO O
+블라인드 좀 켜 주셈,S-OBJECT O S-DO O
+블라인드 좀 켜 줘,S-OBJECT O S-DO O
+블라인드 좀 켜 줘라,S-OBJECT O S-DO O
+블라인드 좀 켜라 좀,S-OBJECT O S-DO O
+블라인드 좀 켜봐,S-OBJECT O S-DO
+블라인드 켜줄래?,S-OBJECT S-DO
+피디일시 좀 켜줄래?,S-OBJECT O S-DO
+블라인드 좀 켜줘라 ㅋㅋ,S-OBJECT O S-DO O
+블라인드 좀 켜 줘 ㅋㅋ,S-OBJECT O S-DO O O
+블라인드 켜 줘 ㅋㅋ,S-OBJECT S-DO O O
+블라인드 켜봐라,S-OBJECT S-DO
+사생활 보호모드 켜줘,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 켜,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 켜봐,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 시작해,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 시작,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 시작해도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호모드 켜도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호모드 켜라,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 켜줘라,B-OBJECT E-OBJECT S-DO
+사생활 보호모드 좀 켜,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 좀 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜보셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 좀 켜주세요,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜주셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 좀 켜봐요,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 켜,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 시작해,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 시작,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 시작해줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 켜도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 보호모드 이제 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 켜줘라,B-OBJECT E-OBJECT O S-DO
+사생활 보호모드 이제 좀 켜,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호모드 이제 좀 켜줘,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜라,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜봐,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호모드 이제 좀 켜주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호모드 이제 좀 켜봐요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 켜줘,B-OBJECT E-OBJECT S-DO
+사생활 보호 켜,B-OBJECT E-OBJECT S-DO
+사생활 보호 켜봐,B-OBJECT E-OBJECT S-DO
+사생활 보호 시작해,B-OBJECT E-OBJECT S-DO
+사생활 보호 시작,B-OBJECT E-OBJECT S-DO
+사생활 보호 시작해도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호 켜도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 보호 켜라,B-OBJECT E-OBJECT S-DO
+사생활 보호 켜줘라,B-OBJECT E-OBJECT S-DO
+사생활 보호 좀 켜,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 좀 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜보셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 좀 켜주세요,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜주셈,B-OBJECT E-OBJECT O S-DO
+사생활 보호 좀 켜봐요,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 켜,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 시작해,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 시작,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 시작해도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 이제 켜도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 보호 이제 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 켜줘라,B-OBJECT E-OBJECT O S-DO
+사생활 보호 이제 좀 켜,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호 이제 좀 켜줘,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜라,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜봐,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 보호 이제 좀 켜주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 보호 이제 좀 켜봐요,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 켜줘,B-OBJECT E-OBJECT S-DO
+사생활 모드 켜,B-OBJECT E-OBJECT S-DO
+사생활 모드 켜봐,B-OBJECT E-OBJECT S-DO
+사생활 모드 시작해,B-OBJECT E-OBJECT S-DO
+사생활 모드 시작,B-OBJECT E-OBJECT S-DO
+사생활 모드 시작해도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 모드 켜도 돼,B-OBJECT E-OBJECT S-DO O
+사생활 모드 켜라,B-OBJECT E-OBJECT S-DO
+사생활 모드 켜줘라,B-OBJECT E-OBJECT S-DO
+사생활 모드 좀 켜,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜 봐,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 좀 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜보셈,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜라 좀,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 좀 켜주세요,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜주셈,B-OBJECT E-OBJECT O S-DO
+사생활 모드 좀 켜봐요,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 켜줘,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 켜,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 켜봐,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 시작해,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 시작,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 시작해도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 이제 켜도 돼,B-OBJECT E-OBJECT O S-DO O
+사생활 모드 이제 켜라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 켜줘라,B-OBJECT E-OBJECT O S-DO
+사생활 모드 이제 좀 켜,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜 봐,B-OBJECT E-OBJECT O O S-DO O
+사생활 모드 이제 좀 켜줘,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜라,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜봐,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜보셈,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜라 좀,B-OBJECT E-OBJECT O O S-DO O
+사생활 모드 이제 좀 켜주세요,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜주셈,B-OBJECT E-OBJECT O O S-DO
+사생활 모드 이제 좀 켜봐요,B-OBJECT E-OBJECT O O S-DO

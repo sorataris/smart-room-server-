@@ -1,0 +1,521 @@
+question,label
+창문 닫어,S-OBJECT S-DO
+창문 닫아,S-OBJECT S-DO
+창문 닫어줘,S-OBJECT S-DO
+창문 닫어봐,S-OBJECT S-DO
+창문 닫아 봐,S-OBJECT S-DO O
+창문 닫아라,S-OBJECT S-DO
+창문 닫아주세요,S-OBJECT S-DO
+창문 닫아주셈,S-OBJECT S-DO
+창문 닫아 주소,S-OBJECT S-DO O
+창문 닫아버려,S-OBJECT S-DO
+창문 닫아봐,S-OBJECT S-DO
+창문 닫아버려,S-OBJECT S-DO
+창문 닫아줄래?,S-OBJECT S-DO
+창문 닫아줄래요?,S-OBJECT S-DO
+아 창문 닫어,O S-OBJECT S-DO
+아 창문 닫아,O S-OBJECT S-DO
+아 창문 닫어줘,O S-OBJECT S-DO
+아 창문 닫어봐,O S-OBJECT S-DO
+아 창문 닫아 봐,O S-OBJECT S-DO O
+아 창문 닫아라,O S-OBJECT S-DO
+아 창문 닫아주세요,O S-OBJECT S-DO
+아 창문 닫아주셈,O S-OBJECT S-DO
+아 창문 닫아 주소,O S-OBJECT S-DO O
+아 창문 닫아버려,O S-OBJECT S-DO
+아 창문 닫아봐,O S-OBJECT S-DO
+아 창문 닫아버려,O S-OBJECT S-DO
+아 창문 좀 닫어 줘,O S-OBJECT O S-DO O
+아 창문 닫어주세요,O S-OBJECT S-DO
+아 창문 꺼줘,O S-OBJECT S-DO
+아 창문 닫아줄래?,O S-OBJECT S-DO
+아 창문 닫아줄래요?,O S-OBJECT S-DO
+창문 좀 닫어,S-OBJECT O S-DO
+창문 좀 닫아,S-OBJECT O S-DO
+창문 좀 닫어줘,S-OBJECT O S-DO
+창문 좀 닫아줘,S-OBJECT O S-DO
+창문 좀 닫어봐,S-OBJECT O S-DO
+창문 좀 닫아 봐,S-OBJECT O S-DO O
+창문 좀 닫아라,S-OBJECT O S-DO
+창문 좀 닫아주세요,S-OBJECT O S-DO
+창문 좀 닫아주셈,S-OBJECT O S-DO
+창문 좀 닫아 주소,S-OBJECT O S-DO O
+창문 좀 닫아버려,S-OBJECT O S-DO
+창문 좀 닫아봐,S-OBJECT O S-DO
+창문 좀 닫아버려,S-OBJECT O S-DO
+창문 좀 닫아줄래?,S-OBJECT O S-DO
+창문 좀 닫아줄래요?,S-OBJECT O S-DO
+이제 창문 좀 닫어,O S-OBJECT O S-DO
+이제 창문 좀 닫아,O S-OBJECT O S-DO
+이제 창문 좀 닫어줘,O S-OBJECT O S-DO
+이제 창문 좀 닫아줘,O S-OBJECT O S-DO
+이제 창문 좀 닫어봐,O S-OBJECT O S-DO
+이제 창문 좀 닫아 봐,O S-OBJECT O S-DO O
+이제 창문 좀 닫아라,O S-OBJECT O S-DO
+이제 창문 좀 닫어라,O S-OBJECT O S-DO
+이제 창문 좀 닫아주세요,O S-OBJECT O S-DO
+이제 창문 좀 닫어주세요,O S-OBJECT O S-DO
+이제 창문 좀 닫아주셈,O S-OBJECT O S-DO
+이제 창문 좀 닫어주셈,O S-OBJECT O S-DO
+이제 창문 좀 닫아 주소,O S-OBJECT O S-DO O
+이제 창문 좀 닫어 주소,O S-OBJECT O S-DO O
+이제 창문 좀 닫아버려,O S-OBJECT O S-DO
+이제 창문 좀 닫어버려,O S-OBJECT O S-DO
+이제 창문 좀 닫아봐,O S-OBJECT O S-DO
+이제 창문 좀 닫어봐,O S-OBJECT O S-DO
+이제 창문 좀 닫아버려,O S-OBJECT O S-DO
+이제 창문 좀 닫어버려,O S-OBJECT O S-DO
+이제 창문 좀 닫아줄래?,O S-OBJECT O S-DO
+이제 창문 좀 닫어줄래?,O S-OBJECT O S-DO
+이제 창문 좀 닫아줄래요?,O S-OBJECT O S-DO
+이제 창문 좀 닫어줄래요?,O S-OBJECT O S-DO
+문 닫어,S-OBJECT S-DO
+문 닫아,S-OBJECT S-DO
+문 닫어줘,S-OBJECT S-DO
+문 닫어봐,S-OBJECT S-DO
+문 닫아 봐,S-OBJECT S-DO O
+문 닫아라,S-OBJECT S-DO
+문 닫아주세요,S-OBJECT S-DO
+문 닫아주셈,S-OBJECT S-DO
+문 닫아 주소,S-OBJECT S-DO O
+문 닫아버려,S-OBJECT S-DO
+문 닫아봐,S-OBJECT S-DO
+문 닫아버려,S-OBJECT S-DO
+문 닫아줄래?,S-OBJECT S-DO
+문 닫아줄래요?,S-OBJECT S-DO
+아 문 닫어,O S-OBJECT S-DO
+아 문 닫아,O S-OBJECT S-DO
+아 문 닫어줘,O S-OBJECT S-DO
+아 문 닫어봐,O S-OBJECT S-DO
+아 문 닫아 봐,O S-OBJECT S-DO O
+아 문 닫아라,O S-OBJECT S-DO
+아 문 닫아주세요,O S-OBJECT S-DO
+아 문 닫아주셈,O S-OBJECT S-DO
+아 문 닫아 주소,O S-OBJECT S-DO O
+아 문 닫아버려,O S-OBJECT S-DO
+아 문 닫아봐,O S-OBJECT S-DO
+아 문 닫아버려,O S-OBJECT S-DO
+아 문 좀 닫어 줘,O S-OBJECT O S-DO O
+아 문 닫어주세요,O S-OBJECT S-DO
+아 문 꺼줘,O S-OBJECT S-DO
+아 문 닫아줄래?,O S-OBJECT S-DO
+아 문 닫아줄래요?,O S-OBJECT S-DO
+문 좀 닫어,S-OBJECT O S-DO
+문 좀 닫아,S-OBJECT O S-DO
+문 좀 닫어줘,S-OBJECT O S-DO
+문 좀 닫아줘,S-OBJECT O S-DO
+문 좀 닫어봐,S-OBJECT O S-DO
+문 좀 닫아 봐,S-OBJECT O S-DO O
+문 좀 닫아라,S-OBJECT O S-DO
+문 좀 닫아주세요,S-OBJECT O S-DO
+문 좀 닫아주셈,S-OBJECT O S-DO
+문 좀 닫아 주소,S-OBJECT O S-DO O
+문 좀 닫아버려,S-OBJECT O S-DO
+문 좀 닫아봐,S-OBJECT O S-DO
+문 좀 닫아버려,S-OBJECT O S-DO
+문 좀 닫아줄래?,S-OBJECT O S-DO
+문 좀 닫아줄래요?,S-OBJECT O S-DO
+이제 문 좀 닫어,O S-OBJECT O S-DO
+이제 문 좀 닫아,O S-OBJECT O S-DO
+이제 문 좀 닫어줘,O S-OBJECT O S-DO
+이제 문 좀 닫아줘,O S-OBJECT O S-DO
+이제 문 좀 닫어봐,O S-OBJECT O S-DO
+이제 문 좀 닫아 봐,O S-OBJECT O S-DO O
+이제 문 좀 닫아라,O S-OBJECT O S-DO
+이제 문 좀 닫어라,O S-OBJECT O S-DO
+이제 문 좀 닫아주세요,O S-OBJECT O S-DO
+이제 문 좀 닫어주세요,O S-OBJECT O S-DO
+이제 문 좀 닫아주셈,O S-OBJECT O S-DO
+이제 문 좀 닫어주셈,O S-OBJECT O S-DO
+이제 문 좀 닫아 주소,O S-OBJECT O S-DO O
+이제 문 좀 닫어 주소,O S-OBJECT O S-DO O
+이제 문 좀 닫아버려,O S-OBJECT O S-DO
+이제 문 좀 닫어버려,O S-OBJECT O S-DO
+이제 문 좀 닫아봐,O S-OBJECT O S-DO
+이제 문 좀 닫어봐,O S-OBJECT O S-DO
+이제 문 좀 닫아버려,O S-OBJECT O S-DO
+이제 문 좀 닫어버려,O S-OBJECT O S-DO
+이제 문 좀 닫아줄래?,O S-OBJECT O S-DO
+이제 문 좀 닫어줄래?,O S-OBJECT O S-DO
+이제 문 좀 닫아줄래요?,O S-OBJECT O S-DO
+이제 문 좀 닫어줄래요?,O S-OBJECT O S-DO
+환기 그만,S-OBJECT S-DO
+환기 그만,S-OBJECT S-DO
+환기 그만해줘,S-OBJECT S-DO
+환기 그만해봐,S-OBJECT S-DO
+환기 그만해봐,S-OBJECT S-DO
+환기 그만해줘 ㅋㅋ,S-OBJECT S-DO O
+환기 그만하라고,S-OBJECT S-DO
+환기 그만해달라니까?,S-OBJECT S-DO
+환기 그만해달라고,S-OBJECT S-DO
+환기 그만 좀 해,S-OBJECT S-DO O O
+환기 그만해주면 좋겠어,S-OBJECT S-DO O
+환기 그만해주면 좋아,S-OBJECT S-DO O
+환기 그만해주면 안되겠니,S-OBJECT S-DO O
+환기 그만해라,S-OBJECT S-DO
+환기 그만하라니까,S-OBJECT S-DO
+환기 그만해주라니까,S-OBJECT S-DO
+환기 그만해주세요,S-OBJECT S-DO
+환기 그만 부탁드려요,S-OBJECT S-DO O
+환기 그만 부탁드립니다,S-OBJECT S-DO O
+환기 그만 부탁할게,S-OBJECT S-DO O
+환기 그만 부탁함,S-OBJECT S-DO O
+환기 그만 부탁한다,S-OBJECT S-DO O
+환기 그만 부탁한다 ㅋㅋ,S-OBJECT S-DO O O
+환기 그만 부탁한다니까?,S-OBJECT S-DO O
+환기 그만 해주세요,S-OBJECT S-DO O
+환기 그만 해주시라니까,S-OBJECT S-DO O
+환기 그만 해줘,S-OBJECT S-DO O
+환기 안할래,S-OBJECT S-DO
+환기 안할거야,S-OBJECT S-DO
+환기 안할거임,S-OBJECT S-DO
+환기 안한다,S-OBJECT S-DO
+환기 안한다 ㅋㅋ,S-OBJECT S-DO O
+환기 안할거다,S-OBJECT S-DO
+환기 안할것,S-OBJECT S-DO
+환기 안한다니까?,S-OBJECT S-DO
+환기 안함,S-OBJECT S-DO
+환기 안해,S-OBJECT S-DO
+환기 안할 예정임,S-OBJECT S-DO O
+환기 안할 것임,S-OBJECT S-DO O
+환기 하지마,S-OBJECT S-DO
+환기 좀 그만,S-OBJECT O S-DO
+환기 좀 그만해,S-OBJECT O S-DO
+환기 좀 그만해줘,S-OBJECT O S-DO
+환기 좀 그만해봐,S-OBJECT O S-DO
+환기 좀 그만해좀,S-OBJECT O S-DO
+환기 좀 그만해줘 ㅋㅋ,S-OBJECT O S-DO O
+환기 좀 그만하라고,S-OBJECT O S-DO
+환기 좀 그만해달라니까?,S-OBJECT O S-DO
+환기 좀 그만해달라고,S-OBJECT O S-DO
+환기 좀 그만 좀 해,S-OBJECT O S-DO O O
+환기 좀 그만해주면 좋겠어,S-OBJECT O S-DO O
+환기 좀 그만해주면 좋아,S-OBJECT O S-DO O
+환기 좀 그만해주면 안되겠니,S-OBJECT O S-DO O
+환기 좀 그만해라,S-OBJECT O S-DO
+환기 좀 그만하라니까,S-OBJECT O S-DO
+환기 좀 그만해주라니까,S-OBJECT O S-DO
+환기 좀 그만해주세요,S-OBJECT O S-DO
+환기 좀 그만 부탁드려요,S-OBJECT O S-DO O
+환기 좀 그만 부탁드립니다,S-OBJECT O S-DO O
+환기 좀 그만 부탁할게,S-OBJECT O S-DO O
+환기 좀 그만 부탁함,S-OBJECT O S-DO O
+환기 좀 그만 부탁한다,S-OBJECT O S-DO O
+환기 좀 그만 부탁한다 ㅋㅋ,S-OBJECT O S-DO O O
+환기 좀 그만 부탁한다니까?,S-OBJECT O S-DO O
+환기 좀 그만 해주세요,S-OBJECT O S-DO O
+환기 좀 그만 해주시라니까,S-OBJECT O S-DO O
+환기 좀 그만 해줘,S-OBJECT O S-DO O
+환기 좀 안할래,S-OBJECT O S-DO
+환기 좀 안할거야,S-OBJECT O S-DO
+환기 좀 안할거임,S-OBJECT O S-DO
+환기 좀 안한다,S-OBJECT O S-DO
+환기 좀 안한다 ㅋㅋ,S-OBJECT O S-DO O
+환기 좀 안할거다,S-OBJECT O S-DO
+환기 좀 안할것,S-OBJECT O S-DO
+환기 좀 안한다니까?,S-OBJECT O S-DO
+환기 좀 안함,S-OBJECT O S-DO
+환기 좀 안해,S-OBJECT O S-DO
+환기 좀 안할 예정임,S-OBJECT O S-DO O
+환기 좀 안할 것임,S-OBJECT O S-DO O
+환기 좀 하지마,S-OBJECT O S-DO
+환기 이제 그만,S-OBJECT O S-DO
+환기 이제 그만해,S-OBJECT O S-DO
+환기 이제 그만해줘,S-OBJECT O S-DO
+환기 이제 그만해봐,S-OBJECT O S-DO
+환기 이제 그만해좀,S-OBJECT O S-DO
+환기 이제 그만해줘 ㅋㅋ,S-OBJECT O S-DO O
+환기 이제 그만하라고,S-OBJECT O S-DO
+환기 이제 그만해달라니까?,S-OBJECT O S-DO
+환기 이제 그만해달라고,S-OBJECT O S-DO
+환기 이제 그만 좀 해,S-OBJECT O S-DO O O
+환기 이제 그만해주면 좋겠어,S-OBJECT O S-DO O
+환기 이제 그만해주면 좋아,S-OBJECT O S-DO O
+환기 이제 그만해주면 안되겠니,S-OBJECT O S-DO O
+환기 이제 그만해라,S-OBJECT O S-DO
+환기 이제 그만하라니까,S-OBJECT O S-DO
+환기 이제 그만해주라니까,S-OBJECT O S-DO
+환기 이제 그만해주세요,S-OBJECT O S-DO
+환기 이제 그만 부탁드려요,S-OBJECT O S-DO O
+환기 이제 그만 부탁드립니다,S-OBJECT O S-DO O
+환기 이제 그만 부탁할게,S-OBJECT O S-DO O
+환기 이제 그만 부탁함,S-OBJECT O S-DO O
+환기 이제 그만 부탁한다,S-OBJECT O S-DO O
+환기 이제 그만 부탁한다 ㅋㅋ,S-OBJECT O S-DO O O
+환기 이제 그만 부탁한다니까?,S-OBJECT O S-DO O
+환기 이제 그만 해주세요,S-OBJECT O S-DO O
+환기 이제 그만 해주시라니까,S-OBJECT O S-DO O
+환기 이제 그만 해줘,S-OBJECT O S-DO O
+환기 이제 안할래,S-OBJECT O S-DO
+환기 이제 안할거야,S-OBJECT O S-DO
+환기 이제 안할거임,S-OBJECT O S-DO
+환기 이제 안한다,S-OBJECT O S-DO
+환기 이제 안한다 ㅋㅋ,S-OBJECT O S-DO O
+환기 이제 안할거다,S-OBJECT O S-DO
+환기 이제 안할것,S-OBJECT O S-DO
+환기 이제 안한다니까?,S-OBJECT O S-DO
+환기 이제 안함,S-OBJECT O S-DO
+환기 이제 안해,S-OBJECT O S-DO
+환기 이제 안할 예정임,S-OBJECT O S-DO O
+환기 이제 안할 것임,S-OBJECT O S-DO O
+환기 이제 하지마,S-OBJECT O S-DO
+창문 열어,S-OBJECT S-DO
+창문 열아,S-OBJECT S-DO
+창문 열어줘,S-OBJECT S-DO
+창문 열아봐,S-OBJECT S-DO
+창문 열아 봐,S-OBJECT S-DO O
+창문 열아라,S-OBJECT S-DO
+창문 열아주세요,S-OBJECT S-DO
+창문 열아주셈,S-OBJECT S-DO
+창문 열아 주소,S-OBJECT S-DO O
+창문 열아버려,S-OBJECT S-DO
+창문 열아봐,S-OBJECT S-DO
+창문 열아버려,S-OBJECT S-DO
+창문 열아줄래?,S-OBJECT S-DO
+창문 열아줄래요?,S-OBJECT S-DO
+아 창문 열어,O S-OBJECT S-DO
+아 창문 열아,O S-OBJECT S-DO
+아 창문 열어줘,O S-OBJECT S-DO
+아 창문 열어봐,O S-OBJECT S-DO
+아 창문 열아 봐,O S-OBJECT S-DO O
+아 창문 열아라,O S-OBJECT S-DO
+아 창문 열아주세요,O S-OBJECT S-DO
+아 창문 열아주셈,O S-OBJECT S-DO
+아 창문 열아 주소,O S-OBJECT S-DO O
+아 창문 열아버려,O S-OBJECT S-DO
+아 창문 열아봐,O S-OBJECT S-DO
+아 창문 열아버려,O S-OBJECT S-DO
+아 창문 좀 열어 줘,O S-OBJECT O S-DO O
+아 창문 열어주세요,O S-OBJECT S-DO
+아 창문 켜줘,O S-OBJECT S-DO
+아 창문 열아줄래?,O S-OBJECT S-DO
+아 창문 열아줄래요?,O S-OBJECT S-DO
+창문 좀 열어,S-OBJECT O S-DO
+창문 좀 열아,S-OBJECT O S-DO
+창문 좀 열어줘,S-OBJECT O S-DO
+창문 좀 열아줘,S-OBJECT O S-DO
+창문 좀 열어봐,S-OBJECT O S-DO
+창문 좀 열아 봐,S-OBJECT O S-DO O
+창문 좀 열아라,S-OBJECT O S-DO
+창문 좀 열아주세요,S-OBJECT O S-DO
+창문 좀 열아주셈,S-OBJECT O S-DO
+창문 좀 열아 주소,S-OBJECT O S-DO O
+창문 좀 열아버려,S-OBJECT O S-DO
+창문 좀 열아봐,S-OBJECT O S-DO
+창문 좀 열아버려,S-OBJECT O S-DO
+창문 좀 열아줄래?,S-OBJECT O S-DO
+창문 좀 열아줄래요?,S-OBJECT O S-DO
+이제 창문 좀 열어,O S-OBJECT O S-DO
+이제 창문 좀 열아,O S-OBJECT O S-DO
+이제 창문 좀 열어줘,O S-OBJECT O S-DO
+이제 창문 좀 열아줘,O S-OBJECT O S-DO
+이제 창문 좀 열어봐,O S-OBJECT O S-DO
+이제 창문 좀 열아 봐,O S-OBJECT O S-DO O
+이제 창문 좀 열아라,O S-OBJECT O S-DO
+이제 창문 좀 열어라,O S-OBJECT O S-DO
+이제 창문 좀 열아주세요,O S-OBJECT O S-DO
+이제 창문 좀 열어주세요,O S-OBJECT O S-DO
+이제 창문 좀 열아주셈,O S-OBJECT O S-DO
+이제 창문 좀 열어주셈,O S-OBJECT O S-DO
+이제 창문 좀 열아 주소,O S-OBJECT O S-DO O
+이제 창문 좀 열어 주소,O S-OBJECT O S-DO O
+이제 창문 좀 열아버려,O S-OBJECT O S-DO
+이제 창문 좀 열어버려,O S-OBJECT O S-DO
+이제 창문 좀 열아봐,O S-OBJECT O S-DO
+이제 창문 좀 열어봐,O S-OBJECT O S-DO
+이제 창문 좀 열아버려,O S-OBJECT O S-DO
+이제 창문 좀 열어버려,O S-OBJECT O S-DO
+이제 창문 좀 열아줄래?,O S-OBJECT O S-DO
+이제 창문 좀 열어줄래?,O S-OBJECT O S-DO
+이제 창문 좀 열아줄래요?,O S-OBJECT O S-DO
+이제 창문 좀 열어줄래요?,O S-OBJECT O S-DO
+문 열어,S-OBJECT S-DO
+문 열아,S-OBJECT S-DO
+문 열어줘,S-OBJECT S-DO
+문 열어봐,S-OBJECT S-DO
+문 열아 봐,S-OBJECT S-DO O
+문 열아라,S-OBJECT S-DO
+문 열아주세요,S-OBJECT S-DO
+문 열아주셈,S-OBJECT S-DO
+문 열아 주소,S-OBJECT S-DO O
+문 열아버려,S-OBJECT S-DO
+문 열아봐,S-OBJECT S-DO
+문 열아버려,S-OBJECT S-DO
+문 열아줄래?,S-OBJECT S-DO
+문 열아줄래요?,S-OBJECT S-DO
+아 문 열어,O S-OBJECT S-DO
+아 문 열아,O S-OBJECT S-DO
+아 문 열어줘,O S-OBJECT S-DO
+아 문 열어봐,O S-OBJECT S-DO
+아 문 열아 봐,O S-OBJECT S-DO O
+아 문 열아라,O S-OBJECT S-DO
+아 문 열아주세요,O S-OBJECT S-DO
+아 문 열아주셈,O S-OBJECT S-DO
+아 문 열아 주소,O S-OBJECT S-DO O
+아 문 열아버려,O S-OBJECT S-DO
+아 문 열아봐,O S-OBJECT S-DO
+아 문 열아버려,O S-OBJECT S-DO
+아 문 좀 열어 줘,O S-OBJECT O S-DO O
+아 문 열어주세요,O S-OBJECT S-DO
+아 문 켜줘,O S-OBJECT S-DO
+아 문 열아줄래?,O S-OBJECT S-DO
+아 문 열아줄래요?,O S-OBJECT S-DO
+문 좀 열어,S-OBJECT O S-DO
+문 좀 열아,S-OBJECT O S-DO
+문 좀 열어줘,S-OBJECT O S-DO
+문 좀 열아줘,S-OBJECT O S-DO
+문 좀 열어봐,S-OBJECT O S-DO
+문 좀 열아 봐,S-OBJECT O S-DO O
+문 좀 열아라,S-OBJECT O S-DO
+문 좀 열아주세요,S-OBJECT O S-DO
+문 좀 열아주셈,S-OBJECT O S-DO
+문 좀 열아 주소,S-OBJECT O S-DO O
+문 좀 열아버려,S-OBJECT O S-DO
+문 좀 열아봐,S-OBJECT O S-DO
+문 좀 열아버려,S-OBJECT O S-DO
+문 좀 열아줄래?,S-OBJECT O S-DO
+문 좀 열아줄래요?,S-OBJECT O S-DO
+이제 문 좀 열어,O S-OBJECT O S-DO
+이제 문 좀 열아,O S-OBJECT O S-DO
+이제 문 좀 열어줘,O S-OBJECT O S-DO
+이제 문 좀 열아줘,O S-OBJECT O S-DO
+이제 문 좀 열어봐,O S-OBJECT O S-DO
+이제 문 좀 열아 봐,O S-OBJECT O S-DO O
+이제 문 좀 열아라,O S-OBJECT O S-DO
+이제 문 좀 열어라,O S-OBJECT O S-DO
+이제 문 좀 열아주세요,O S-OBJECT O S-DO
+이제 문 좀 열어주세요,O S-OBJECT O S-DO
+이제 문 좀 열아주셈,O S-OBJECT O S-DO
+이제 문 좀 열어주셈,O S-OBJECT O S-DO
+이제 문 좀 열아 주소,O S-OBJECT O S-DO O
+이제 문 좀 열어 주소,O S-OBJECT O S-DO O
+이제 문 좀 열아버려,O S-OBJECT O S-DO
+이제 문 좀 열어버려,O S-OBJECT O S-DO
+이제 문 좀 열아봐,O S-OBJECT O S-DO
+이제 문 좀 열어봐,O S-OBJECT O S-DO
+이제 문 좀 열아버려,O S-OBJECT O S-DO
+이제 문 좀 열어버려,O S-OBJECT O S-DO
+이제 문 좀 열아줄래?,O S-OBJECT O S-DO
+이제 문 좀 열어줄래?,O S-OBJECT O S-DO
+이제 문 좀 열아줄래요?,O S-OBJECT O S-DO
+이제 문 좀 열어줄래요?,O S-OBJECT O S-DO
+환기 시작,S-OBJECT S-DO
+환기 시작해,S-OBJECT S-DO
+환기 시작해줘,S-OBJECT S-DO
+환기 시작해봐,S-OBJECT S-DO
+환기 시작해좀,S-OBJECT S-DO
+환기 시작해줘 ㅋㅋ,S-OBJECT S-DO O
+환기 시작하라고,S-OBJECT S-DO
+환기 시작해달라니까?,S-OBJECT S-DO
+환기 시작해달라고,S-OBJECT S-DO
+환기 시작 좀 해,S-OBJECT S-DO O O
+환기 시작해주면 좋겠어,S-OBJECT S-DO O
+환기 시작해주면 좋아,S-OBJECT S-DO O
+환기 시작해주면 안되겠니,S-OBJECT S-DO O
+환기 시작해라,S-OBJECT S-DO
+환기 시작하라니까,S-OBJECT S-DO
+환기 시작해주라니까,S-OBJECT S-DO
+환기 시작해주세요,S-OBJECT S-DO
+환기 시작 부탁드려요,S-OBJECT S-DO O
+환기 시작 부탁드립니다,S-OBJECT S-DO O
+환기 시작 부탁할게,S-OBJECT S-DO O
+환기 시작 부탁함,S-OBJECT S-DO O
+환기 시작 부탁한다,S-OBJECT S-DO O
+환기 시작 부탁한다 ㅋㅋ,S-OBJECT S-DO O O
+환기 시작 부탁한다니까?,S-OBJECT S-DO O
+환기 시작 해주세요,S-OBJECT S-DO O
+환기 시작 해주시라니까,S-OBJECT S-DO O
+환기 시작 해줘,S-OBJECT S-DO O
+환기 할래,S-OBJECT S-DO
+환기 할거야,S-OBJECT S-DO
+환기 할거임,S-OBJECT S-DO
+환기 한다,S-OBJECT S-DO
+환기 한다 ㅋㅋ,S-OBJECT S-DO O
+환기 할거다,S-OBJECT S-DO
+환기 할것,S-OBJECT S-DO
+환기 한다니까?,S-OBJECT S-DO
+환기 함,S-OBJECT S-DO
+환기 해,S-OBJECT S-DO
+환기 할 예정임,S-OBJECT S-DO O
+환기 할 것임,S-OBJECT S-DO O
+환기 해,S-OBJECT S-DO
+환기 좀 해,S-OBJECT O S-DO
+환기 좀 시작해,S-OBJECT O S-DO
+환기 좀 시작해줘,S-OBJECT O S-DO
+환기 좀 시작해봐,S-OBJECT O S-DO
+환기 좀 시작해좀,S-OBJECT O S-DO
+환기 좀 시작해줘 ㅋㅋ,S-OBJECT O S-DO O
+환기 좀 시작하라고,S-OBJECT O S-DO
+환기 좀 시작해달라니까?,S-OBJECT O S-DO
+환기 좀 시작해달라고,S-OBJECT O S-DO
+환기 좀 시작 좀 해,S-OBJECT O S-DO O O
+환기 좀 시작해주면 좋겠어,S-OBJECT O S-DO O
+환기 좀 시작해주면 좋아,S-OBJECT O S-DO O
+환기 좀 시작해주면 안되겠니,S-OBJECT O S-DO O
+환기 좀 시작해라,S-OBJECT O S-DO
+환기 좀 시작하라니까,S-OBJECT O S-DO
+환기 좀 시작해주라니까,S-OBJECT O S-DO
+환기 좀 시작해주세요,S-OBJECT O S-DO
+환기 좀 시작 부탁드려요,S-OBJECT O S-DO O
+환기 좀 시작 부탁드립니다,S-OBJECT O S-DO O
+환기 좀 시작 부탁할게,S-OBJECT O S-DO O
+환기 좀 시작 부탁함,S-OBJECT O S-DO O
+환기 좀 시작 부탁한다,S-OBJECT O S-DO O
+환기 좀 시작 부탁한다 ㅋㅋ,S-OBJECT O S-DO O O
+환기 좀 시작 부탁한다니까?,S-OBJECT O S-DO O
+환기 좀 시작 해주세요,S-OBJECT O S-DO O
+환기 좀 시작 해주시라니까,S-OBJECT O S-DO O
+환기 좀 시작 해줘,S-OBJECT O S-DO O
+환기 좀 할래,S-OBJECT O S-DO
+환기 좀 할거야,S-OBJECT O S-DO
+환기 좀 할거임,S-OBJECT O S-DO
+환기 좀 한다,S-OBJECT O S-DO
+환기 좀 한다 ㅋㅋ,S-OBJECT O S-DO O
+환기 좀 할거다,S-OBJECT O S-DO
+환기 좀 할것,S-OBJECT O S-DO
+환기 좀 한다니까?,S-OBJECT O S-DO
+환기 좀 함,S-OBJECT O S-DO
+환기 좀 해,S-OBJECT O S-DO
+환기 좀 할 예정임,S-OBJECT O S-DO O
+환기 좀 할 것임,S-OBJECT O S-DO O
+환기 좀 해,S-OBJECT O S-DO
+환기 이제 해,S-OBJECT O S-DO
+환기 이제 시작해,S-OBJECT O S-DO
+환기 이제 시작해줘,S-OBJECT O S-DO
+환기 이제 시작해봐,S-OBJECT O S-DO
+환기 이제 시작해좀,S-OBJECT O S-DO
+환기 이제 시작해줘 ㅋㅋ,S-OBJECT O S-DO O
+환기 이제 시작하라고,S-OBJECT O S-DO
+환기 이제 시작해달라니까?,S-OBJECT O S-DO
+환기 이제 시작해달라고,S-OBJECT O S-DO
+환기 이제 시작 좀 해,S-OBJECT O S-DO O O
+환기 이제 시작해주면 좋겠어,S-OBJECT O S-DO O
+환기 이제 시작해주면 좋아,S-OBJECT O S-DO O
+환기 이제 시작해주면 안되겠니,S-OBJECT O S-DO O
+환기 이제 시작해라,S-OBJECT O S-DO
+환기 이제 시작하라니까,S-OBJECT O S-DO
+환기 이제 시작해주라니까,S-OBJECT O S-DO
+환기 이제 시작해주세요,S-OBJECT O S-DO
+환기 이제 시작 부탁드려요,S-OBJECT O S-DO O
+환기 이제 시작 부탁드립니다,S-OBJECT O S-DO O
+환기 이제 시작 부탁할게,S-OBJECT O S-DO O
+환기 이제 시작 부탁함,S-OBJECT O S-DO O
+환기 이제 시작 부탁한다,S-OBJECT O S-DO O
+환기 이제 시작 부탁한다 ㅋㅋ,S-OBJECT O S-DO O O
+환기 이제 시작 부탁한다니까?,S-OBJECT O S-DO O
+환기 이제 시작 해주세요,S-OBJECT O S-DO O
+환기 이제 시작 해주시라니까,S-OBJECT O S-DO O
+환기 이제 시작 해줘,S-OBJECT O S-DO O
+환기 이제 할래,S-OBJECT O S-DO
+환기 이제 할거야,S-OBJECT O S-DO
+환기 이제 할거임,S-OBJECT O S-DO
+환기 이제 한다,S-OBJECT O S-DO
+환기 이제 한다 ㅋㅋ,S-OBJECT O S-DO O
+환기 이제 할거다,S-OBJECT O S-DO
+환기 이제 할것,S-OBJECT O S-DO
+환기 이제 한다니까?,S-OBJECT O S-DO
+환기 이제 함,S-OBJECT O S-DO
+환기 이제 해,S-OBJECT O S-DO
+환기 이제 할 예정임,S-OBJECT O S-DO O
+환기 이제 할 것임,S-OBJECT O S-DO O
+환기 이제 해,S-OBJECT O S-DO

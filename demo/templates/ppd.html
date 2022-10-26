@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Insert title here</title>
+<style>
+main{
+ width:1240px;
+ height: 740px;
+ border: 2px solid black;
+ box-sizing: border-box;
+ magin: auto;
+}
+section{
+ width: 994px;
+ height: 320px;
+ background: silver;
+ padding: 20px;
+ float: left;
+ border: 3px dashed ping;
+ box-sizing: border-box;
+}
+
+section2{
+ width: 994px;
+ height: 416px;
+ background: silver;
+ float: left;
+ border: 3px dashed ping;
+ box-sizing: border-box;
+}
+
+aside{
+ width: 236px;
+ height: 736px;
+ background: black;
+ float: right;
+ color: white;
+ text-align: center;
+}
+
+a{
+ text-decoration: none;
+}
+ a:link, a:visited {
+     background-color: #000000;
+     color: white;
+     padding: 20px 64px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+
+.date{
+	time-align: center;
+	position: relative;
+	color: white;
+	font-size: 20px;
+}
+
+.time{
+	time-align: center;
+	position: relative;
+	color: white;
+	font-size: 45px;
+}
+
+.dda { 
+  font-size: 250%;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #666;
+  border-bottom: 2px solid #ccc;
+  border-left: 10px solid #55555B;
+  text-height:200%;
+  padding: 3px 5px;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.dashboard {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 97vh;
+    border-radius: 0 0 20px -15px black;
+    margin: auto;
+    }
+body {
+  height: 90vh;
+  display: flex;
+  background-color: rgb(255 255 255);
+  margin: 15px;
+}
+
+.appliance {
+  position: relative;
+  height: 300px;
+  width: 70%;
+  margin: 30px 0;
+}
+.appliance span {
+  position: relative;
+}
+.appliance span::before, .appliance span::after {
+  text-transform: uppercase;
+  font-size: 1vw;
+  position: absolute;
+  left: 0;
+}
+.appliance span::before {
+  content: attr(data-o);
+  opacity: 0;
+}
+.appliance span::after {
+  content: attr(data-c);
+}
+.appliance strong {
+  margin: 40px 0 10px;
+  display: block;
+  font-size: 40px;
+}
+.appliance label {
+  position: absolute;
+  width: 74%;
+  height: 71%;
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 1px 0 10px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+}
+.appliance label::before {
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: white;
+  content: "";
+}
+.appliance label * {
+  position: relative;
+  transition: 200ms;
+}
+.appliance label small {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ff574e;
+  border-radius: 10px;
+  top: 30px;
+  right: 20px;
+  transition: 200ms;
+}
+.appliance label small::after, .appliance label small::before {
+  content: "";
+}
+.appliance label .f {
+  width: 16px;
+  height: 22px;
+  background-color: #3976f6;
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  top: 30px;
+  background-image: linear-gradient(0deg, white 2px, transparent 2px), linear-gradient(0deg, white 12px, transparent 0);
+  background-size: 17px 9px, 2px 15px;
+  background-position: 0 0, 3px 0;
+  background-repeat: no-repeat;
+}
+.appliance label .a {
+  width: 23px;
+  height: 10px;
+  background-color: #3976f6;
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  top: 30px;
+  background-image: linear-gradient(0deg, white 2px, transparent 2px);
+  background-size: 17px 9px;
+  background-position: 3px -2px;
+  background-repeat: no-repeat;
+}
+.appliance label .a::after, .appliance label .a::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: transparent transparent #3976f6;
+  top: 10px;
+  border-radius: 50%;
+  transform: rotate(72deg);
+  display: block;
+}
+.appliance label .a::after {
+  left: 14px;
+}
+.appliance label .a::before {
+  left: 6px;
+}
+.appliance label .r {
+  width: 23px;
+  height: 9px;
+  background-color: #3976f6;
+  display: block;
+  position: absolute;
+  border-radius: 3px;
+  top: 30px;
+}
+.appliance label .r::after, .appliance label .r::before {
+  content: "";
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(57, 118, 246, 0.61) transparent transparent;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+}
+.appliance label .r::after {
+  width: 22px;
+  height: 20px;
+  top: -11px;
+  left: -2px;
+}
+.appliance label .r::before {
+  width: 16px;
+  height: 20px;
+  top: -6px;
+  left: 1px;
+}
+.appliance label .l {
+  width: 22px;
+  height: 13px;
+  background-color: #3976f6;
+  display: block;
+  position: absolute;
+  border-radius: 22px 22px 0 0;
+  top: 30px;
+}
+.appliance label .l::before {
+  content: "";
+  width: 3px;
+  height: 8px;
+  background-color: rgba(57, 118, 246, 0.61);
+  display: block;
+  top: -8px;
+  position: absolute;
+  border-radius: 3px;
+  left: 9px;
+}
+.appliance label .l::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  background: rgba(57, 118, 246, 0.61);
+  border-radius: 0 0 9px 9px;
+  top: 14px;
+  left: 6px;
+}
+.appliance input {
+  display: none;
+}
+.appliance input:checked + label::before {
+  content: "";
+  background: linear-gradient(to bottom, #59a2fb 0%, #3976f6 100%);
+}
+.appliance input:checked + label * {
+  color: white;
+}
+.appliance input:checked + label i {
+  background-color: white;
+}
+.appliance input:checked + label i::before, .appliance input:checked + label i::after {
+  background-color: rgba(255, 255, 255, 0.61);
+}
+.appliance input:checked + label i.f {
+  background-image: linear-gradient(0deg, rgba(89, 162, 251, 0.61) 2px, transparent 2px), linear-gradient(0deg, rgba(89, 162, 251, 0.61) 12px, transparent 0);
+}
+.appliance input:checked + label i.a {
+  background-image: linear-gradient(0deg, rgba(89, 162, 251, 0.61) 2px, transparent 2px);
+}
+.appliance input:checked + label i.a::before, .appliance input:checked + label i.a::after {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: transparent transparent rgba(255, 255, 255, 0.61);
+}
+.appliance input:checked + label i.r {
+  background-color: white;
+}
+.appliance input:checked + label i.r::before, .appliance input:checked + label i.r::after {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.61) transparent transparent;
+}
+.appliance input:checked + label small {
+  width: 30px;
+  height: 15px;
+  background-color: #3976f6;
+}
+.appliance input:checked + label small::before {
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  display: block;
+  border-radius: 13px;
+  top: 1px;
+  position: absolute;
+}
+.appliance input:checked + label span::before {
+  opacity: 1;
+}
+.appliance input:checked + label span::after {
+  opacity: 0;
+}
+
+.outer {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.inner-list {
+  display: flex;
+  transition: .3s ease-out;
+  height: 100%;
+}
+.inner {
+  padding: 0 16px;
+}s
+.button-list {
+  text-align: center;
+}
+ 
+.button-left,
+.button-right {
+    position: relative;
+    float:left;
+    width:100px;
+    height:100px;
+    margin-right:5px;
+    text-align: center;
+    left:433px;
+}
+.button-left::after {
+    position: absolute;
+    left: 35px; 
+    top: 20px;
+    content: '';
+    width: 50px; /* 사이즈 */
+    height: 50px; /* 사이즈 */
+    border-top: 5px solid #000; /* 선 두께 */
+    border-right: 5px solid #000; /* 선 두께 */
+    transform: rotate(225deg); /* 각도 */
+}
+
+.button-right::after {
+    position: absolute;
+    left: 10px; 
+    top: 20px; 
+    content: '';
+    width: 50px; /* 사이즈 */
+    height: 50px; /* 사이즈 */
+    border-top: 5px solid #000; /* 선 두께 */
+    border-right: 5px solid #000; /* 선 두께 */
+    transform: rotate(45deg); /* 각도 */
+}
+
+</style>
+</head>
+
+
+<body>
+<main>
+<section> <!-- 날씨 위젯 -->
+<article style="background: #c0c0c0;">
+
+<iframe width="100%" height="245" 
+src="https://forecast.io/embed/#lat=37.821&lon=126.796&name=파주&color=#F6A8A6&font=arial&units=si" 
+frameborder="0"></iframe>
+
+</article>
+
+</section>
+
+<aside> <!-- 사이드 팩 -->
+			<a href="join">회원가입 페이지</a> 
+            <a href="login" style="padding: 15px 68px;">로그인 페이지</a> 
+            <a href="chatbot" style="padding: 15px 68px;">Chat Bot</a>  
+            <a href="#test4">내방</a> <br><br><br><br><br><br><br><br><br><br>
+            <hr>
+            <button type="button" id="LED_Red" onclick="LED_Set('Red')" style="background-color: rgb(0 0 0 / 15%); width: 80pt;height: 50pt;">Red_LED</button>
+            <button type="button" id="LED_Blue" onclick="LED_Set('Blue')" style="background-color: rgb(0 0 0 / 15%); width: 80pt;height: 50pt;">BLUE_LED</button>
+            <button type="button" id="LED_Green" onclick="LED_Set('Green')" style="background-color: rgb(0 0 0 / 15%); width: 80pt;height: 50pt;">GREEN_LED</button>
+            <button type="button" id="LED_Rain" onclick="LED_Set('Rain')" style="background-color: rgb(0 0 0 / 15%); width: 80pt;height: 50pt;">RainBow_LED</button>
+            
+            <script>
+          //파이어 베이스 초기화 코드
+   	 var config = {
+   	   apiKey: "",  // API 키
+     	   authDomain: "paoh01.firebaseapp.com", 
+    	   databaseURL: "https://paoh01-default-rtdb.firebaseio.com",  // db URL
+    	   projectId: "paoh01",
+ 	   storageBucket: "paoh01.appspot.com",
+    	   messagingSenderId: "436923184269"
+  	 };
+        	firebase.initializeApp(config);
+        	firebaseDatabase = firebase.database();
+            
+            function LED_Set(s){
+            	firebase.database().ref("user_id/").once('value', function(uid){
+					  var id = uid.val();
+			  		var ref = firebaseDatabase.ref("users/"+ id); //저장될 곳을 users라는 부모 키를 레퍼런스로 지정.
+			  	    //저장 형식
+			  	    var obj = {
+			  	        LED: s,
+			  	        };
+			  	    ref.update(obj); // 고유한 자식 키가 하나 생셩이 되면서 json 삽입
+			  		})
+            }
+            </script>
+            
+            <br>
+            <hr>
+            <div id="time" class="time"> </div>
+            <div id="date" class="date"> </div>
+</aside>
+
+<script>
+	function setClock(){
+	    var dateInfo = new Date(); 
+	    var hour = modifyNumber(dateInfo.getHours());
+	    var min = modifyNumber(dateInfo.getMinutes());
+	    var sec = modifyNumber(dateInfo.getSeconds());
+	    var year = dateInfo.getFullYear();
+	    var month = dateInfo.getMonth()+1; //monthIndex를 반환해주기 때문에 1을 더해준다.
+	    var date = dateInfo.getDate();
+	    document.getElementById("time").innerHTML = hour + ":" + min  + ":" + sec;
+	    document.getElementById("date").innerHTML = year + "년 " + month + "월 " + date + "일";
+	}
+	function modifyNumber(time){
+	    if(parseInt(time)<10){
+	        return "0"+ time;
+	    }
+	    else
+	        return time;
+	}
+	window.onload = function(){
+	    setClock();
+	    setInterval(setClock,1000); //1초마다 setClock 함수 실행
+	}
+
+
+</script>
+
+
+ <script>
+	var timerID;  // 자동갱신 타이머
+	$(document).ready(function () {
+		updateData();
+		$('#stop').on('click',function(e){
+		        clearTimeout(timerID); // 타이머 중지
+		    });   
+		});
+ </script>
+
+
+<section2 id="test4">  <!-- 스마트홈 제어 시스템 -->
+<div class="container" style="width:1050px;"> <!-- 첫번째 체크박스 컨테이너 시작(내방) -->
+			 <h1 class="dda" style="width: 965px;">My Room</h1>
+	<script> 		
+				  
+				  
+				  function updateData(){  // DB의 데이터를 직접 읽어와 처리하는 방식
+					firebase.database().ref("user_id/").once('value', function(uid){
+						  var id = uid.val();
+					
+				    firebase.database().ref("users/" + id + "/LED/").once('value', function (led) {  // 데이터를 읽어오는 경로 설정
+				  	    if(led.val() == "OFF"){      	   
+				        	document.getElementById('a').checked = false;  //checkbox 상태를 체크가 되지 않은 상태로 적용
+				        }
+				        else {
+				        	document.getElementById('a').checked = true;  //checkbox 상태를 체크된 상태로 적용
+				        } 	   
+ 				    });
+				  
+				    firebase.database().ref("users/" + id + "/Blind/").once('value', function (blind) { // 데이터를 읽어오는 경로 설정
+					    if(blind.val() == "UP"){      	   
+				            document.getElementById('d').checked = false;  //checkbox 상태를 체크가 되지 않은 상태로 적용
+				         }
+					    else if (blind.val() == "DOWN"){
+				            document.getElementById('d').checked = true;  //checkbox 상태를 체크된 상태로 적용
+				        } 
+ 			     	});
+				     
+				    firebase.database().ref("users/" + id + "/Window/").once('value', function (window) {  // 데이터를 읽어오는 경로 설정
+				    	if(window.val() == "CLOSE"){      	   
+				        	document.getElementById('c').checked = false;  //checkbox 상태를 체크가 되지 않은 상태로 적용
+				        }
+				        else if (window.val() == "OPEN"){
+				        	document.getElementById('c').checked = true;  //checkbox 상태를 체크된 상태로 적용
+				        }
+				  	    //console.log(window.val())	
+ 			    	});
+					})
+				      timerID = setTimeout("updateData()", 3000); //5초마다 updateDate함수 업데이트
+				}
+				  
+				  
+	</script>
+				<div class="row" id="test">
+      				<div class="appliance col-xs-12 col-sm-4 col-md-4" style="width: 350px;"> <!-- LED 체크박스 -->
+      				    <input type="checkbox" name="a" id="a">
+      				  	<label for="a"> <i class="l"></i> <br />
+       				  	<strong>LED</strong>
+         			  	<span>
+         			  	<button type="button" id="button_led1" onclick="button_led('ON');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;">On</button>
+         			  	<button type="button" id="button_led2" onclick="button_led('OFF');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;;">Off</button>
+         			  	<script>	
+         			  	function button_led(s) {
+         			  		firebase.database().ref("user_id/").once('value', function(uid){
+      						  var id = uid.val();
+         			  		var ref = firebaseDatabase.ref("users/"+ id); //저장될 곳을 users라는 부모 키를 레퍼런스로 지정.
+         			  	    //저장 형식
+         			  	    var obj = {
+         			  	        LED: s,
+         			  	        };
+         			  	    ref.update(obj); // 고유한 자식 키가 하나 생셩이 되면서 json 삽입
+         			  		})
+         			  	}
+         			  	</script>
+         			  	</span>
+         			 	 <small></small>
+        			  	</label>
+     		          </div>
+     		          
+     		        <div class="appliance col-xs-12 col-sm-4 col-md-4" style="width: 350px;">  <!-- Window 체크박스 -->
+       				  	<input type="checkbox" name="c" id="c">
+      				    <label for="c"> <i class="a"></i>  <br />
+         				<strong>Window</strong>
+       				    <span>
+       				    <button type="button" id="button_window1" onclick="button_window('OPEN');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;">Open</button>
+       				    <button type="button" id="button_window2" onclick="button_window('CLOSE');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;">Close</button>
+       				    <script>	
+         			  	function button_window(s) {
+         			  		firebase.database().ref("user_id/").once('value', function(uid){
+      						  var id = uid.val();	
+         			  		var ref = firebaseDatabase.ref("users/"+ id); //저장될 곳을 users라는 부모 키를 레퍼런스로 지정.
+         			  	    //저장 형식
+         			  	    var obj = {
+         			  	        Window: s,
+         			  	        };
+         			  	    ref.update(obj); // 고유한 자식 키가 하나 생셩이 되면서 json 삽입
+         			  		})
+         			  	}
+         			  	</script>
+       				    </span>
+       				    <small></small>
+       				    </label>
+  					</div>
+      
+      				<div class="appliance col-xs-12 col-sm-4 col-md-4" style="width: 350px;">  <!-- Blind 체크박스 -->
+       				    <input type="checkbox" name="d" id="d">
+       				    <label for="d"> <i class="f"></i>  <br />
+       				    <strong>Blind</strong>
+        				<span>
+        				<button type="button" id="button_blind1" onclick="button_blind('UP');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;">Up</button>
+        				<button type="button" id="button_blind2" onclick="button_blind('DOWN');" style="background-color: rgb(255 255 255 / 15%);width: 80pt;height: 45pt;border: 0;outline: 0;">Down</button>
+        				<script>	
+         			  	function button_blind(s) {
+         			  		firebase.database().ref("user_id/").once('value', function(uid){
+      						  var id = uid.val();
+         			  		var ref = firebaseDatabase.ref("users/"+ id); //저장될 곳을 users라는 부모 키를 레퍼런스로 지정.
+         			  	    //저장 형식
+         			  	    var obj = {
+         			  	        Blind: s,
+         			  	        };
+         			  	    ref.update(obj); // 고유한 자식 키가 하나 생셩이 되면서 json 삽입
+         			  		})
+         			  	}
+         			  	</script>
+        				</span>
+        			    <small></small>
+     				    </label>
+   				  </div>
+   				</div>
+   		</div>
+</section2>
+</main>
+
+
+</body>
+</html>
