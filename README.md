@@ -89,7 +89,7 @@ if __name__ == '__main__':
 - [seq2seq 그림](https://mc.ai/implement-of-seq2seq-model/)
 - [Fallback Detection 그림](https://docs.smartly.ai/docs/intent-detection)
 - [데모 애플리케이션 템플릿](https://bootsnipp.com/snippets/ZlkBn)
-- 그 외의 그림 및 소스코드 : 본인 제작
+- 그 외의 그림 및 소스코드 : hyunwoongGo
 <br><br><br>
 
 ## License
